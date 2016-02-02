@@ -43,6 +43,11 @@ program
   .action(require(commands + '/download'))
 
 program
+  .command('open')
+  .description('Open the current Apps Script project in your browser.')
+  .action(require(commands + '/open'))
+
+program
   .command('oauth-callback-url')
   .description('Get the OAuth Callback URL for a project')
   .action(require(commands + '/oauthCallbackUrl'));

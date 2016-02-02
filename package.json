@@ -44,6 +44,7 @@
     "lodash": "^3.9.3",
     "mkdirp": "^0.5.1",
     "node-dir": "^0.1.6",
+    "open": "0.0.5",
     "request": "^2.54.0"
   },
   "devDependencies": {
